@@ -1,7 +1,23 @@
 h1 {
     color: darkgreen;
-},
+}
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight:700;
+}
+img {
+    max-width: 100;
+}
+
+.column1 {
+    background-color: orange;
+    display: inline-block;
+    width: 50%;
+}
+
+.column2 {
+    background-color: green;
+}
+.title {
+    font-size: 49px;
 }
