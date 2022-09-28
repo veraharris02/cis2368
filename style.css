@@ -6,6 +6,7 @@
     font-family: "Nunito", sans-serif;
     font-size: 96px;
     text-align: center;
+    margin: 0px;
 }
 h1{
     color: #2E7255;
@@ -23,9 +24,7 @@ p{
 .head{
     border-radius: 73px;
 }
-.icons{
-    border-radius: 50%;
-}
+
 ul{
     font-family: "Nunito", sans-serif;
     font-size: 40px;
@@ -35,4 +34,26 @@ ul{
 li{
     float: left;
     
+}
+.about-1{
+    display: flex;
+    gap: 60px;
+}
+.about-2{
+    display: flex;
+    gap: 60px;
+}
+.icons{
+    border-radius: 50%;
+    
+}
+.i2{
+    order: 2;
+    min-width: 463px;
+    min-height: 463px;
+    left: 976px;
+    right: 1408px;
+}
+.t2{
+    text-align: right;
 }
