@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: 40% 50%;
+grid-template-rows: 70% 30%;
+grid-column-gap: 100px;
+grid-row-gap: 29px;
+}
+.about{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+main{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.about-text{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1; 
+}

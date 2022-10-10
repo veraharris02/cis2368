@@ -1,71 +1,145 @@
-body, html {
-    height: 100%;
+body{
+    background-color: #fafafa;
 }
-.flexbox-container{
+.container{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    gap: 100px;
+    margin-top: 30px;
 }
-.title{
-    font-family: "Nunito", sans-serif;
-    font-size: 96px;
-    text-align: center;
-    margin: 0px;
+.about-contain{
+    display:flex;
+    position: sticky;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.sub-image{
+    position: sticky;
+    flex-grow: 1;
+    max-height: 1155px;
+    max-width: 600px;
+    border: 5px solid #eeee;
+    border-radius: 15px;
+    padding: 35px;
+    background-color: white;
 }
 h1{
-    color: #2E7255;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 60px;
+    margin-top: 5px;
+    margin:0px;
+    color: #fcc40d;
+    letter-spacing: 15px;
 }
-h2{
-    color:#FD5430;
-}
-h3{
-    color: #4C8D93;
-}
-p{
-    font-family: "Roboto", serif;
-    font-size: 40px;
-}
-.head {
-    border-radius: 73px;
-    flex-grow: 2;
-}
-.game-heading {
-    width: 1449px;
-    height: 307px;
-}
-.heading{
-   max-width: 100%;
-   max-height: 100vh;
-   margin: auto;
-   background-size: cover;
+#discription{
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    color: #c1252e;
+    word-spacing: 15px;
+    margin: -1px;
 }
 
-ul{
-    font-family: "Nunito", sans-serif;
-    font-size: 40px;
-    color: #4C8D93;
-    display: inline;
+.sub-image img{ /* side nav image */
+   max-width: 100%;
+   border-radius: 15px;
+   object-fit: contain;
 }
-li{
-    float: left;
-    
+.music{
+    margin-top: 20px;
+    text-align: center;
 }
-.about-1{
+audio{
+    width: 600px;
+}
+main{
+    padding: 5px;
+    flex-grow: 2;
+    width: 200px;
+    height: auto;
+}
+.twitter-tweet{
+    object-fit: cover;
+    display: inline-block;
+    border: 5px solid #eeee;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: white;
+}
+aside{
+    order: 3;
+    flex-grow: 3;
     display: flex;
-    gap: 60px;
+    flex-direction: column;
+    gap: 15px;
 }
-.about-2{
-    display: flex;
-    gap: 60px;
+.yellow{
+    padding: 10px;
+    border: 5px solid #eeee;
+    border-radius: 15px;;
 }
-.icons{
-    border-radius: 50%;
-    
+h2 {
+    font-family: 'Bungee', sans-serif;
+    font-size: 50px;
+    color:#c1252e;
+    margin-bottom: 25px;
+    display: block;
 }
-.i2{
-    order: 2;
+p {
+   font-family: 'Josefin Sans', sans-serif;
+   text-align: center;
 }
-.t2{
-    text-align: right;
+iframe{
+    order: 4;
+    padding: 10px;
+    border-radius: 15px;
+}
+#spot {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#mail {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#ham {
+    position: sticky;
+}
+#hampic{
+    position: sticky;
+    width: 200px;
+}
+#spotify-play {
+    border-radius: 50px;
+}
+#shoes{
+    height: 250px;
+    width: 200px;
+    align-self: center;
+}
+.comic{
+    width: 600px;
+    align-self: flex-start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 5px solid #eeee;
+    border-radius: 15px;
+    padding: 5px;
+}
+.hxh{
+    height: 600px;
+    width:500px;
+   float: right;
+   justify-items: flex-end;
 }
